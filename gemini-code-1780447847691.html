@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Page</title>
+    <style>
+        /* Reset default margins and center everything */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0f2f5; /* Light, neutral background */
+            font-family: sans-serif;
+        }
+
+        /* Container to keep things neat */
+        .container {
+            text-align: center;
+            max-width: 90%;
+        }
+
+        /* Style the image */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px; /* Smooth corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            margin-bottom: 20px;
+        }
+
+        /* Style the non-intrusive text box */
+        textarea {
+            width: 100%;
+            max-width: 400px;
+            height: 100px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            resize: vertical; /* Allows vertical resizing only */
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+            box-sizing: border-box;
+        }
+
+        /* Subtle focus effect for the text box */
+        textarea:focus {
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://picsum.photos/400/300" alt="Practice Placeholder Image">
+        
+        <br>
+        
+        <textarea placeholder="Type your practice notes here..."></textarea>
+    </div>
+
+</body>
+</html>
